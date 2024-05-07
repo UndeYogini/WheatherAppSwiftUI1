@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0700072BE99CC8002C5B51 /* WheatherAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0700062BE99CC8002C5B51 /* WheatherAppSwiftUITests.swift */; };
+		EB07000E2BE9DAE7002C5B51 /* MockableHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB07000D2BE9DAE7002C5B51 /* MockableHttpClient.swift */; };
+		EB0700102BE9DAFE002C5B51 /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB07000F2BE9DAFE002C5B51 /* Mockable.swift */; };
+		EB0700142BE9DC26002C5B51 /* WeatherListResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = EB0700132BE9DC26002C5B51 /* WeatherListResponse.json */; };
+		EB7D5D622BE93DA600AADF89 /* WheatherAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D612BE93DA600AADF89 /* WheatherAppSwiftUIApp.swift */; };
+		EB7D5D642BE93DA600AADF89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D632BE93DA600AADF89 /* ContentView.swift */; };
+		EB7D5D662BE93DA800AADF89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7D5D652BE93DA800AADF89 /* Assets.xcassets */; };
+		EB7D5D692BE93DA800AADF89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7D5D682BE93DA800AADF89 /* Preview Assets.xcassets */; };
+		EB7D5D782BE93F4C00AADF89 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D772BE93F4C00AADF89 /* Constants.swift */; };
+		EB7D5D7A2BE9402400AADF89 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D792BE9402400AADF89 /* APIManager.swift */; };
+		EB7D5D7C2BE940B800AADF89 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D7B2BE940B800AADF89 /* Weather.swift */; };
+		EB7D5D862BE942E700AADF89 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D852BE942E700AADF89 /* View+Extension.swift */; };
+		EB7D5D8A2BE9430E00AADF89 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D892BE9430E00AADF89 /* Date+Extension.swift */; };
+		EB7D5D8C2BE9432900AADF89 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D8B2BE9432900AADF89 /* UserDefaults+Extensions.swift */; };
+		EB7D5D902BE9442000AADF89 /* AddWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D8F2BE9442000AADF89 /* AddWeatherViewModel.swift */; };
+		EB7D5D922BE9442F00AADF89 /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D912BE9442F00AADF89 /* WeatherListViewModel.swift */; };
+		EB7D5D962BE9451200AADF89 /* WeatherListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D952BE9451200AADF89 /* WeatherListScreen.swift */; };
+		EB7D5D982BE9452200AADF89 /* AddCityScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D972BE9452200AADF89 /* AddCityScreen.swift */; };
+		EB7D5D9A2BE9453800AADF89 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D992BE9453800AADF89 /* SettingsScreen.swift */; };
+		EB7D5D9D2BE9471400AADF89 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D9C2BE9471400AADF89 /* Store.swift */; };
+		EB7D5D9F2BE947C500AADF89 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7D5D9E2BE947C500AADF89 /* String+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB0700082BE99CC8002C5B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7D5D562BE93DA600AADF89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7D5D5D2BE93DA600AADF89;
+			remoteInfo = WheatherAppSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0700042BE99CC8002C5B51 /* WheatherAppSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherAppSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0700062BE99CC8002C5B51 /* WheatherAppSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAppSwiftUITests.swift; sourceTree = "<group>"; };
+		EB07000D2BE9DAE7002C5B51 /* MockableHttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockableHttpClient.swift; sourceTree = "<group>"; };
+		EB07000F2BE9DAFE002C5B51 /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		EB0700132BE9DC26002C5B51 /* WeatherListResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherListResponse.json; sourceTree = "<group>"; };
+		EB7D5D5E2BE93DA600AADF89 /* WheatherAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7D5D612BE93DA600AADF89 /* WheatherAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAppSwiftUIApp.swift; sourceTree = "<group>"; };
+		EB7D5D632BE93DA600AADF89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB7D5D652BE93DA800AADF89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB7D5D682BE93DA800AADF89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB7D5D772BE93F4C00AADF89 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EB7D5D792BE9402400AADF89 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EB7D5D7B2BE940B800AADF89 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		EB7D5D852BE942E700AADF89 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		EB7D5D892BE9430E00AADF89 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		EB7D5D8B2BE9432900AADF89 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		EB7D5D8F2BE9442000AADF89 /* AddWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherViewModel.swift; sourceTree = "<group>"; };
+		EB7D5D912BE9442F00AADF89 /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		EB7D5D952BE9451200AADF89 /* WeatherListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListScreen.swift; sourceTree = "<group>"; };
+		EB7D5D972BE9452200AADF89 /* AddCityScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityScreen.swift; sourceTree = "<group>"; };
+		EB7D5D992BE9453800AADF89 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		EB7D5D9C2BE9471400AADF89 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		EB7D5D9E2BE947C500AADF89 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0700012BE99CC8002C5B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7D5D5B2BE93DA600AADF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0700052BE99CC8002C5B51 /* WheatherAppSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB0700062BE99CC8002C5B51 /* WheatherAppSwiftUITests.swift */,
+				EB07000D2BE9DAE7002C5B51 /* MockableHttpClient.swift */,
+				EB07000F2BE9DAFE002C5B51 /* Mockable.swift */,
+				EB0700132BE9DC26002C5B51 /* WeatherListResponse.json */,
+			);
+			path = WheatherAppSwiftUITests;
+			sourceTree = "<group>";
+		};
+		EB07FFFD2BE993BE002C5B51 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D652BE93DA800AADF89 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EB7D5D552BE93DA600AADF89 = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D602BE93DA600AADF89 /* WheatherAppSwiftUI */,
+				EB7D5D5F2BE93DA600AADF89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7D5D5F2BE93DA600AADF89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D5E2BE93DA600AADF89 /* WheatherAppSwiftUI.app */,
+				EB0700042BE99CC8002C5B51 /* WheatherAppSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7D5D602BE93DA600AADF89 /* WheatherAppSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D6F2BE93E6E00AADF89 /* Constants */,
+				EB7D5D712BE93E8400AADF89 /* Helper */,
+				EB7D5D702BE93E7900AADF89 /* Extensions */,
+				EB7D5D9B2BE946FD00AADF89 /* Global State */,
+				EB7D5D732BE93EA100AADF89 /* Screens */,
+				EB7D5D612BE93DA600AADF89 /* WheatherAppSwiftUIApp.swift */,
+				EB7D5D632BE93DA600AADF89 /* ContentView.swift */,
+				EB07FFFD2BE993BE002C5B51 /* Resources */,
+				EB0700052BE99CC8002C5B51 /* WheatherAppSwiftUITests */,
+				EB7D5D672BE93DA800AADF89 /* Preview Content */,
+			);
+			path = WheatherAppSwiftUI;
+			sourceTree = "<group>";
+		};
+		EB7D5D672BE93DA800AADF89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D682BE93DA800AADF89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB7D5D6F2BE93E6E00AADF89 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D772BE93F4C00AADF89 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EB7D5D702BE93E7900AADF89 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D852BE942E700AADF89 /* View+Extension.swift */,
+				EB7D5D892BE9430E00AADF89 /* Date+Extension.swift */,
+				EB7D5D9E2BE947C500AADF89 /* String+Extensions.swift */,
+				EB7D5D8B2BE9432900AADF89 /* UserDefaults+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EB7D5D712BE93E8400AADF89 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D792BE9402400AADF89 /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EB7D5D722BE93E8A00AADF89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D762BE93ED000AADF89 /* Model */,
+				EB7D5D752BE93ECA00AADF89 /* View */,
+				EB7D5D742BE93EBE00AADF89 /* ViewModel */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		EB7D5D732BE93EA100AADF89 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D722BE93E8A00AADF89 /* Products */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EB7D5D742BE93EBE00AADF89 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D8F2BE9442000AADF89 /* AddWeatherViewModel.swift */,
+				EB7D5D912BE9442F00AADF89 /* WeatherListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB7D5D752BE93ECA00AADF89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D952BE9451200AADF89 /* WeatherListScreen.swift */,
+				EB7D5D972BE9452200AADF89 /* AddCityScreen.swift */,
+				EB7D5D992BE9453800AADF89 /* SettingsScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB7D5D762BE93ED000AADF89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D7B2BE940B800AADF89 /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB7D5D9B2BE946FD00AADF89 /* Global State */ = {
+			isa = PBXGroup;
+			children = (
+				EB7D5D9C2BE9471400AADF89 /* Store.swift */,
+			);
+			path = "Global State";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0700032BE99CC8002C5B51 /* WheatherAppSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB07000A2BE99CC8002C5B51 /* Build configuration list for PBXNativeTarget "WheatherAppSwiftUITests" */;
+			buildPhases = (
+				EB0700002BE99CC8002C5B51 /* Sources */,
+				EB0700012BE99CC8002C5B51 /* Frameworks */,
+				EB0700022BE99CC8002C5B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0700092BE99CC8002C5B51 /* PBXTargetDependency */,
+			);
+			name = WheatherAppSwiftUITests;
+			productName = WheatherAppSwiftUITests;
+			productReference = EB0700042BE99CC8002C5B51 /* WheatherAppSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB7D5D5D2BE93DA600AADF89 /* WheatherAppSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7D5D6C2BE93DA800AADF89 /* Build configuration list for PBXNativeTarget "WheatherAppSwiftUI" */;
+			buildPhases = (
+				EB7D5D5A2BE93DA600AADF89 /* Sources */,
+				EB7D5D5B2BE93DA600AADF89 /* Frameworks */,
+				EB7D5D5C2BE93DA600AADF89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheatherAppSwiftUI;
+			productName = WheatherAppSwiftUI;
+			productReference = EB7D5D5E2BE93DA600AADF89 /* WheatherAppSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB7D5D562BE93DA600AADF89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					EB0700032BE99CC8002C5B51 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EB7D5D5D2BE93DA600AADF89;
+					};
+					EB7D5D5D2BE93DA600AADF89 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = EB7D5D592BE93DA600AADF89 /* Build configuration list for PBXProject "WheatherAppSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB7D5D552BE93DA600AADF89;
+			productRefGroup = EB7D5D5F2BE93DA600AADF89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7D5D5D2BE93DA600AADF89 /* WheatherAppSwiftUI */,
+				EB0700032BE99CC8002C5B51 /* WheatherAppSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB0700022BE99CC8002C5B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0700142BE9DC26002C5B51 /* WeatherListResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7D5D5C2BE93DA600AADF89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7D5D692BE93DA800AADF89 /* Preview Assets.xcassets in Resources */,
+				EB7D5D662BE93DA800AADF89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0700002BE99CC8002C5B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB07000E2BE9DAE7002C5B51 /* MockableHttpClient.swift in Sources */,
+				EB0700102BE9DAFE002C5B51 /* Mockable.swift in Sources */,
+				EB0700072BE99CC8002C5B51 /* WheatherAppSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7D5D5A2BE93DA600AADF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7D5D982BE9452200AADF89 /* AddCityScreen.swift in Sources */,
+				EB7D5D7A2BE9402400AADF89 /* APIManager.swift in Sources */,
+				EB7D5D642BE93DA600AADF89 /* ContentView.swift in Sources */,
+				EB7D5D8C2BE9432900AADF89 /* UserDefaults+Extensions.swift in Sources */,
+				EB7D5D622BE93DA600AADF89 /* WheatherAppSwiftUIApp.swift in Sources */,
+				EB7D5D902BE9442000AADF89 /* AddWeatherViewModel.swift in Sources */,
+				EB7D5D782BE93F4C00AADF89 /* Constants.swift in Sources */,
+				EB7D5D9D2BE9471400AADF89 /* Store.swift in Sources */,
+				EB7D5D9A2BE9453800AADF89 /* SettingsScreen.swift in Sources */,
+				EB7D5D8A2BE9430E00AADF89 /* Date+Extension.swift in Sources */,
+				EB7D5D9F2BE947C500AADF89 /* String+Extensions.swift in Sources */,
+				EB7D5D862BE942E700AADF89 /* View+Extension.swift in Sources */,
+				EB7D5D7C2BE940B800AADF89 /* Weather.swift in Sources */,
+				EB7D5D962BE9451200AADF89 /* WeatherListScreen.swift in Sources */,
+				EB7D5D922BE9442F00AADF89 /* WeatherListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB0700092BE99CC8002C5B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7D5D5D2BE93DA600AADF89 /* WheatherAppSwiftUI */;
+			targetProxy = EB0700082BE99CC8002C5B51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB07000B2BE99CC8002C5B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S43VS7HEE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.WheatherAppSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherAppSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WheatherAppSwiftUI";
+			};
+			name = Debug;
+		};
+		EB07000C2BE99CC8002C5B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S43VS7HEE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.WheatherAppSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherAppSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WheatherAppSwiftUI";
+			};
+			name = Release;
+		};
+		EB7D5D6A2BE93DA800AADF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB7D5D6B2BE93DA800AADF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB7D5D6D2BE93DA800AADF89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WheatherAppSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4S43VS7HEE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.WheatherAppSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB7D5D6E2BE93DA800AADF89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WheatherAppSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4S43VS7HEE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.WheatherAppSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB07000A2BE99CC8002C5B51 /* Build configuration list for PBXNativeTarget "WheatherAppSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB07000B2BE99CC8002C5B51 /* Debug */,
+				EB07000C2BE99CC8002C5B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7D5D592BE93DA600AADF89 /* Build configuration list for PBXProject "WheatherAppSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7D5D6A2BE93DA800AADF89 /* Debug */,
+				EB7D5D6B2BE93DA800AADF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7D5D6C2BE93DA800AADF89 /* Build configuration list for PBXNativeTarget "WheatherAppSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7D5D6D2BE93DA800AADF89 /* Debug */,
+				EB7D5D6E2BE93DA800AADF89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB7D5D562BE93DA600AADF89 /* Project object */;
+}
